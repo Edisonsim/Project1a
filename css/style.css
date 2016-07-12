@@ -1,0 +1,68 @@
+body {
+  background: #FFE4C4;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+  #button {
+      min-width: 100px;
+      margin: 5px;
+      height: 2em;
+      font-size: 14px;
+      background: white;
+      border: 1px solid black;
+      color: black;
+      border-radius: 10px;
+}
+#reset {
+    min-width: 100px;
+    margin: 5px;
+    height: 2em;
+    font-size: 14px;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+}
+.gameButton {
+  position: relative;
+  text-align: center;
+  float: right;
+}
+  .question {
+      min-width: 30px;
+      color: black;
+      font-weight: 600;
+      font-size: 22px;
+      text-align: center;
+      background: white;
+      padding: 15px;
+      height: 20px;
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+  .answers {
+      padding: 40px 0;
+      max-width: 500px;
+      margin: 0 auto;
+      border-radius: 2px;
+  }
+    .answers button {
+        min-width: 230px;
+        margin: 5px;
+        height: 3em;
+        font-size: 24px;
+        background: white;
+        color: black;
+        border-radius: 5px;
+    }
+    .answers button:focus {
+        outline: none;
+        color: black;
+        font-weight: 700;
+    }
