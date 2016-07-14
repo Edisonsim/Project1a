@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type=text/css href="/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type=text/css href="css/style.css">
   <title>Quiz</title>
 </head>
 
 <body>
+  <div class="scoreBoard">
+    <div id="player1">Score 0</div>
+    <div id="player2">Score 0</div>
+  </div>
   <h1>Are you up for the quiz?</h1>
-  <h2 id="status-msg"></h2>
+  <h2 id="Q"></h2>
   <div class="question"></div>
   <div class="answers">
-    <button type="button" class="btn" id="answer-1">True</button>
-    <button type="button" id="answer-2">False</button>
+    <button type="button" class="answer" id="true">True</button>
+    <button type="button" class="answer" id="false">False</button>
   </div>
   </div>
-  <div class="ScoreBoard">
-    <div id="Player1">Player-1</div>
-    <div id="Player2">Player-2</div>
-  </div>
+  <!-- <div class="scoreBoard">
+    <div id="player1">player1</div>
+    <div id="player2">player2</div>
+  </div> -->
   <div class="gameButton">
     <button type="button" id="reset" name="reset game">Reset</button>
-    <button type="button" class="btn btn-primary btn-md" id="button">Next</button>
+    <button type="button" id="start" name="start game">start</button>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/script/script.js"></script>
+  <script type="text/javascript" src="script/script.js"></script>
 </body>
-
 </html>
